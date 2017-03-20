@@ -1,0 +1,148 @@
+html, body {
+	margin:0; 
+	padding:0; 
+	border:0;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Typography */
+
+html {
+	color:rgb( 80, 80, 80 ); 
+	font-size:13px; 
+	font-family: Arial, sans-serif;
+}
+pre {
+	margin:0; 
+	padding:12px; 
+	font-style:italic; 
+	font-size:90%; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+}
+
+/* Top */
+
+#top {
+	width:100%; 
+	background:rgb( 52, 52, 52 ) url('images/top.png') repeat-x bottom center; 
+	border-bottom:1px solid rgb( 235, 235, 235 );
+}
+	#top div {
+		padding: 15px 0px;
+		background-color: #2c3e50;
+	}
+	#top ul {
+		width:960px; 
+		margin:0 auto;
+	}
+	#top ul li {
+		display:inline; 
+		padding:2px 6px;
+	}
+	#top ul li a {
+		color: #e8e8e8 !important;
+		text-decoration:none; 
+		font-size: 15px;
+		font-weight: 500;
+		padding: 0 10px;
+		letter-spacing: 1px;
+	}
+	#top ul li a:hover {
+		color:rgb( 255, 255, 255 );
+	}
+
+
+/* Structure */
+
+#mojo {
+	width:100%; 
+	background: #f9f9f9; 
+	padding-top:24px;
+}
+
+#container {
+	width:760px; 
+	margin:0 auto; 
+	border:1px solid rgb( 227, 227, 227 ); 
+	background-color:rgb( 255, 255, 255 );
+	box-shadow: 0 -3px 31px 0 rgba(0, 0, 0, 0.05),0 6px 20px 0 rgba(0, 0, 0, 0.02);
+	padding:32px;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border:8px;
+}
+#cloud {
+	background: #f2f6fa;
+}
+.section {
+	padding:24px 0; 
+	border-bottom:1px dotted rgb( 220, 220, 220 );
+}
+#mojo .section {
+	padding:0 0 24px 0 !important;
+}
+
+h1 {
+	color: #182433; 
+	padding:12px 0; 
+	text-transform: capitalize;
+	font-family: 'Roboto', sans-serif;
+}
+h2 {
+	color: #182433; 
+	position:relative; 
+	z-index:10; 
+	background-color:rgb( 255, 255, 255 ); 
+	left:-90px; 
+	padding:12px 12px 12px 18px;
+	border-left:1px solid rgb( 227, 227, 227 );
+	border-radius:8px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	-moz-border-radius:8px;
+	-webkit-border:8px;
+}
+
+.info {
+	font-size:90%; 
+	font-style:italic; 
+}
+
+/* Author */
+
+#author {
+	margin:0 auto;
+}
+#author td.author {
+	text-align:left;
+}
+#author td.author ul li {
+	list-style-type:none;
+	letter-spacing: 1px;
+	font-size: 14px;
+	font-weight: 500;
+	padding-bottom: 10px;
+}
+#author td.author ul li span {
+	 font-weight:bold;
+	 font-size: 14px;
+	 letter-spacing: 1px;
+	 padding-right: 10px;
+	 padding-bottom: 15px;
+}
+#author td.author ul li a {
+	font-weight:normal;
+}
+
+#author td.title p {
+	text-align:right;
+}
+
+/* Sections */
+
+.section p {
+	line-height:150%;
+}
